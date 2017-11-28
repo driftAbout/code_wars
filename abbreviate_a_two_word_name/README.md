@@ -22,6 +22,7 @@ Patrick Feeney => P.F
 - long hand
 
      A simple long hand solution. I created an empty array, named letters, to hold temporary data.  First I split the name string on space into an array of the first and last name.  Then I loop through the array of name parts, and do the following:
+       
        - Extract the first character of of each word using charAt(0)
        - Coerce the the letter to upper case
        - Push the value to an array named letters declared at the beginning of the script.
