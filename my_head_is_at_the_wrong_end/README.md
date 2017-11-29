@@ -29,11 +29,11 @@ Same goes for all the other arrays/lists that you will get in the tests: you hav
 
   - #### For Loop, Indexing in Reverse
 
-    This solution is similar to the previous except I am using array indexes to seed the temp array.  Using a for loop, I iterate from 1 to the length of arr.  By subtracting the iteration count from the length of the array and using that number for the array index, I can seed the new array in the reverse of the original array.
+    Using a for loop, I iterate from 1 to the length of arr.  By subtracting the iteration count from the length of the array and using that number for the array index, I can seed the new array in the reverse order of the original array.
 
   - #### No Methods
 
-    This is a simple solution based on the knowledge that there will only ever be three items in the array.  I set the values of the first and last items of the array as variables.  I reassign the item at index 0 to the stored value of the variable containing the original last value, then I reassign the item at index 2 to the value of the variable containing the original first value.
+    This is a simple solution based on the knowledge that there will only ever be three items in the array.  I set the values of the first and last items of the array as variables.  I reassign the item at the first index to the stored value of the variable containing the original last value, then I reassign the item at the last index to the value of the variable containing the original first value.
 
   - #### Super Simple, No Methods
 
