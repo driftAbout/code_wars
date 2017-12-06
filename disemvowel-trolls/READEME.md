@@ -17,3 +17,5 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 Note: for this kata y isn't considered a vowel.
 
 ### Solution
+
+This one was straight forward. Simply  use sting.replace in conjunction with regex.  Select any character that is a vowl, upper or lower case, and replace with an empty string. [aeiouAEIOU].
