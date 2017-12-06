@@ -2,7 +2,7 @@
 //Solution using array.every()
 function isNice(arr){
   if(!arr.length) return false;
-  return arr.every(val=> arr.includes( val + 1) || arr.includes( val - 1));
+  return arr.every(val => arr.includes( val + 1) || arr.includes( val - 1));
 }
 
 //Solution using array.IndexOf()
